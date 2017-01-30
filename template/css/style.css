@@ -1,0 +1,362 @@
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+html, body {
+	background: whitesmoke;
+}
+body, input, select{
+	color: black;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: 100;
+	line-height: 1.75em;
+}
+header{
+	position: relative;
+	margin: auto;
+    margin-top: 5px;
+
+}
+#header{
+    height: 120px;
+    width: 90%;
+    font-size: 11pt;
+    background: none repeat scroll 0% 0% rgba(49, 49, 49, 0.75);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+a {
+	-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-o-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	color: #09C;
+	text-decoration: none;
+	display:block;
+}
+a:hover {
+	color: black !important;
+	border-bottom-color: transparent;
+       
+}
+strong, b {
+	color: #ffffff;
+	font-weight: 300;
+}
+em, i {
+	font-style: italic;
+}
+
+p {
+	margin: 0 0 2em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+		color: #afafaf;
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}
+ ul {
+    list-style: outside none none;
+     
+}
+/*Logo*/
+#logo{
+	margin: 30px;
+	float:left;
+	width: 20%;
+}
+
+/*Botones*/
+		
+
+#nav {
+    position: relative;
+    float:right;
+    margin: 25px;
+    padding-right: 50px;
+    width: auto;
+}
+			li {
+				float:left;
+                padding: 0px 0px 0px 5px;
+               
+			}
+			
+			#nav li a {
+                
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			#nav li a:hover {
+				background-color:rgba(167, 167, 167, 0.2);
+				border-radius: 10px;
+
+			}
+            
+			
+			#nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			#nav li:hover > ul {
+				display:block;
+              
+			}
+			
+			#nav li ul li {
+				position:relative;
+			}
+			
+			#nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+ 	.buttonspecial{
+        text-shadow: 2px 2px 2px #020202;
+ 		border-radius: 10px;
+        background: rgba(97, 145, 131, 0.6);
+ 	}
+/* Section/Article */
+	#one{
+        padding-top: 24px;
+		position: relative;
+		height: 700px;
+		max-width: 100%
+		min-width: 400px;
+		max-height: 900px;
+	}
+	a.button{
+		float: bottom;
+	}
+	#content1{
+		float: left;
+	}
+	.actions{
+
+	}
+	header p br {
+		display: n 	;
+	}
+
+	header h2 + p {
+		font-size: 1em;
+	}
+
+	header h3 + p {
+		font-size: 1em;
+	}
+
+	header h4 + p,
+	header h5 + p,
+	header h6 + p {
+		font-size: 0.9em;
+	}
+
+	header.major {
+		margin: 0 0 2em 0;
+	}
+	/* Banner */
+
+#banner {
+		
+		min-height: calc(90vh - 44px);
+	}
+
+		#banner:before {
+			height: calc(90vh - 44px);
+		}
+
+			#banner .content header h2 {
+				font-size: 1.5em;
+			}
+
+			#banner .content .image {
+				height: 9em;
+				/*width: 9em;*/
+			}
+/* Banner  */
+
+	#banner {
+		background-attachment: scroll;
+	}
+
+		#banner .goto-next {
+			height: 7em;
+		}
+
+		#banner .content {
+			padding: 9em 0;
+			text-align: center;
+		}
+
+			#banner .content header {
+				display: block;
+				margin: 0 0 2em 0;
+				text-align: center;
+			}
+
+			#banner .content .image {
+				margin: 0;
+			}
+#banner .content {
+		padding: 2.5em;
+        margin: 80px 0px 0px 0px; 
+	}
+/* Footer */
+
+	#footer {
+		padding: 3.25em 1.5em;
+        
+        background:none repeat scroll 0% 0% rgba(15, 15, 15, 0.78);
+	}
+	#footer {
+		padding: 4.5em 0;
+	}
+.copyright {
+    color: whitesmoke;
+    text-align: center;
+}
+
+/*Imagenes*/
+.image {
+	
+		border-radius: 20px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+			
+
+	}
+
+/*bootbox de inicio*/
+.in_form{
+	color:#111;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+.in_form div{
+	background-color: #ccc;
+}
+.in_form input{
+	color:#666;
+	background-color: #eee;
+	font-size:12px;
+	font-weight: lighter;
+}
+
+.registroForm{
+	color :#111;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+.registroForm div{
+	background-color: #ccc;
+}
+.registroForm input{
+	color:#666;
+	background-color: #eee;
+	font-size:12px;
+	font-weight: lighter;
+}
+
+/*Responsivo*/
+
+@media screen and (max-width: 750px) {
+  html {
+        -webkit-text-size-adjust: none;
+    }
+#header{
+    height: 160px;
+    width: 90%;
+    font-size: 11pt;
+    background: none repeat scroll 0% 0% rgba(49, 49, 49, 0.75);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+#logo{
+	margin: 30px 50px;
+    display: inline-block;
+	float: bottom;
+	width: 40%;
+}
+ 
+#nav {
+    float: bottom;
+    position: relative;
+    margin:0px;
+    width: auto;
+}
+}
+
+@media screen and (max-width: 480px) {
+  html {
+        -webkit-text-size-adjust: none;
+    }
+ 
+#nav {
+  
+    position: relative;
+    float:left;
+    margin:0px;
+    padding-right: 50px;
+    width: auto;
+    font-size: 10pt;
+}
+#logo{
+    font-size: 13pt;
+	margin: 30px 50px;
+    display: inline-block;
+	float: bottom;
+	width: 40%;
+}
+ 
+    #header{
+    height: 200px;
+    width: 90%;
+    font-size: 11pt;
+    background: none repeat scroll 0% 0% rgba(49, 49, 49, 0.75);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+  
+}
+
+/********Salidas de la DB********/
+.box-out {
+    background: rgba(107, 173, 115, 0.2);
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 600px;
+    padding: 20px;
+    border-radius: 0px 15px 0px 0px;
+}
+
+
+
+
+#caja {
+   
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 600px;
+    background: rgba(70, 70, 70, 0.13);
+    border-radius: 15px 0px 0px 0px;
+}
+
+#con {
+    background: #d2e9f7;
+    border: groove;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
